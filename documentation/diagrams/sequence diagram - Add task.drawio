@@ -1,0 +1,71 @@
+<mxfile host="Electron" modified="2024-02-26T16:09:13.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="MM3bD_-jKi8CR2ok86OP" version="22.1.2" type="device">
+  <diagram name="Page-1" id="JupWO-p-paxFksCF3Zrj">
+    <mxGraphModel dx="592" dy="346" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-1" value="Doctor:" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="131" y="101" width="25" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-2" value="System:&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="345" y="101" width="96" height="349" as="geometry" />
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="_0dlaaY8aWk9O5C_BY_B-2" vertex="1">
+          <mxGeometry x="43.5" y="88" width="10" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="_0dlaaY8aWk9O5C_BY_B-2" vertex="1">
+          <mxGeometry x="294.5" y="189" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-12" value="Add new task" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="_0dlaaY8aWk9O5C_BY_B-2" target="_0dlaaY8aWk9O5C_BY_B-11" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="54.5" y="193" as="sourcePoint" />
+            <mxPoint x="296.5" y="193" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-16" value="Add new task" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="_0dlaaY8aWk9O5C_BY_B-2" edge="1">
+          <mxGeometry x="-0.0045" width="80" relative="1" as="geometry">
+            <mxPoint x="-202.50333333333344" y="94" as="sourcePoint" />
+            <mxPoint x="44.32999999999993" y="94" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-17" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Set task descrition" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="_0dlaaY8aWk9O5C_BY_B-2" target="_0dlaaY8aWk9O5C_BY_B-3" edge="1">
+          <mxGeometry x="-0.0045" width="80" relative="1" as="geometry">
+            <mxPoint x="-201.50238095238097" y="113" as="sourcePoint" />
+            <mxPoint x="45.450000000000045" y="113" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-21" value="Sucess" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="_0dlaaY8aWk9O5C_BY_B-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295.5" y="217" as="sourcePoint" />
+            <mxPoint x="54.5" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-22" value="Display success of adding" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="_0dlaaY8aWk9O5C_BY_B-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="42.17000000000007" y="238" as="sourcePoint" />
+            <mxPoint x="-204.49666666666667" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-4" value="Database:" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="596" y="101" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-20" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Set task medicine" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
+          <mxGeometry x="-0.0045" width="80" relative="1" as="geometry">
+            <mxPoint x="141.66666666666654" y="236" as="sourcePoint" />
+            <mxPoint x="388.49999999999994" y="236" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0dlaaY8aWk9O5C_BY_B-18" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Set task deadline" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
+          <mxGeometry x="-0.0045" width="80" relative="1" as="geometry">
+            <mxPoint x="141.66666666666654" y="257" as="sourcePoint" />
+            <mxPoint x="388.49999999999994" y="257" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
