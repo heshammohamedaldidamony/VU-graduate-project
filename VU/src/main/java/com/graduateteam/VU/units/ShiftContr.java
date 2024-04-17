@@ -1,10 +1,8 @@
-package com.graduateteam.VU.shift;
+package com.graduateteam.VU.units;
 
 import com.graduateteam.VU.login.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/shift")

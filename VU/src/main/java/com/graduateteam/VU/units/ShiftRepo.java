@@ -1,10 +1,9 @@
-package com.graduateteam.VU.shift;
+package com.graduateteam.VU.units;
 
 import org.springframework.data.jdbc.repository.query.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Repository
@@ -36,13 +35,4 @@ public interface ShiftRepo extends CrudRepository<Shift,Unit > {
             "where unit.id_unit=:id")
     public Icu getIcuByUnitId(int id);
 
-    @Query("select icu.name as icuName from unit \n"+
-            "join icu on icu.id_icu=unit.id_icu\n" +
-            "where unit.id_unit=:id")
-    String getIcuNameByUnitId(int id);
-
-    @Query("select vu1.doctor.name from vu1.doctor\n" +
-            "join vu1.icu on vu1.doctor.id_doctor = vu1.icu.id_doctor\n" +
-            "where vu1.icu.id_icu=:id")
-    String getConsultantDrByUnitId(int id);
 }

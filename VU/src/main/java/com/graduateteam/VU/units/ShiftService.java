@@ -1,11 +1,10 @@
-package com.graduateteam.VU.shift;
+package com.graduateteam.VU.units;
 
 import com.graduateteam.VU.exception_handling.OutIndexException;
 import com.graduateteam.VU.login.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
