@@ -1,30 +1,10 @@
-package com.graduateteam.VU.shift;
-
+package com.graduateteam.VU.units;
 
 import java.time.LocalDateTime;
 
-public class Unit {
-    private int id;
-    private String name;
+public class UnitDoctor extends Unit{
     private LocalDateTime start;
     private LocalDateTime end;
-
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public LocalDateTime getStart() {
         return start;
@@ -41,5 +21,4 @@ public class Unit {
     public void setEnd(LocalDateTime end) {
         this.end = end;
     }
-
 }
