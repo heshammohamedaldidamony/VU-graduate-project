@@ -1,17 +1,17 @@
 package com.graduateteam.VU.patients;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
+import org.springframework.data.relational.core.mapping.Table;
 
 import java.time.LocalDate;
 
-@Entity
-@Table(name = "patient")
+@Table
 public class Patient {
-    @Id
-    @Column(name = "id_patient")
+@Id
+@Column("id_patient")
     private String id;
     private String name;
     private LocalDate birth;

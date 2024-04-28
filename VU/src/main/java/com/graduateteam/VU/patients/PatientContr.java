@@ -14,7 +14,7 @@ public class PatientContr {
     @Autowired
     private PatientService patientService;
 
-    @GetMapping("/personal-info/{id}")
+    @GetMapping("/personal-info")
     public Patient getPatient(@RequestBody String id){
         return patientService.getPatient(id);
     }
